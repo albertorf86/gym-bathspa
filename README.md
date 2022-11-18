@@ -1,5 +1,6 @@
 # gym-bathspa
-https://padelplaymadrid.netlify.app
+https://gymbathspa.netlify.app
+<br>
 Technology: HTML and CSS 
 <br>
 Description: Demo website created with Bootstrap
