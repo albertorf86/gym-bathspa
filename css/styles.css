@@ -1,0 +1,101 @@
+
+/* Universal style selector */
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    }
+    
+/* Style for nav menu */
+    .navContainer{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #151f28;
+        
+    }
+    
+    .menuDiv{
+        display: flex;
+        width: 50vw;
+    }  
+    ul{
+        display: flex;
+        align-content: space-around;
+        list-style: none;
+        text-decoration: none;
+        justify-content:center ;
+    }
+    li{
+        margin: 20%;
+        list-style: none;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #fabe22;
+        font-size: 20px;
+    }
+    
+    
+    .logo{
+        width: 15vw;
+    }
+
+    .btn{
+        background-color:#fabe22;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 12px;
+        color: white;
+        font-size: 20px;
+    }
+/*     Style for main body */
+body {
+    background-color: #fabe22;
+  }
+    .content{
+        padding-left: 10%;
+        padding-top: 170px;
+        height: 75vh;
+    }
+
+    h1{
+        font-size: 90px;
+    }
+    
+    .featureImage{
+    
+    height: 88%;
+    position: absolute;
+    bottom: 25px;
+    left: 25%;
+    }
+
+/* Style for footer */
+    footer{
+        height: 94px;
+        background-color: #151f28;
+    }
+
+    .navFooter{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            height: 100%;
+        }
+        
+
+    .divFooter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .logoFooter{
+    margin-left: 70px;
+    height: 40px;
+    width: 40px;
+}
+    
+
+    
